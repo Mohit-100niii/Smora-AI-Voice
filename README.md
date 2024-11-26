@@ -1,40 +1,58 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Samora AI - Full Stack Text-to-Speech Web Application
+
+A full-stack web application that generates speech from text using the **PlayAI Text API**. This project is built with **Next.js**, integrating both frontend and backend functionalities. It uses **TailwindCSS** for styling, **MongoDB** for data storage, and **Clerk** for authentication.
+
+---
+
+## Features
+- **Text-to-Speech**: Convert text into speech using the PlayAI Text API.
+- **Authentication**: Secure login/signup powered by Clerk.
+- **Fully Integrated Backend**: Server-side rendering and API routes managed with Next.js.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Database**: User data and audio files are stored in MongoDB.
+
+---
+
+## Live Demo
+
+You can check out the live version of the application here:
+
+**[Live Demo](https://elegant-semifreddo-f9bf5c.netlify.app/)**
+
+---
+
+## Screenshots
+
+![Homepage](https://github.com/user-attachments/assets/1628bf18-6b43-4492-9e49-02b1f70e4555)
+![Text-to-Speech Feature](https://github.com/user-attachments/assets/b49541f9-c62c-4650-9eb1-531a95b7ef58)
+
+---
+
+## Technologies Used
+
+- **Framework**: Next.js
+- **Styling**: TailwindCSS
+- **Authentication**: Clerk
+- **Database**: MongoDB
+- **API**: PlayAI Text-to-Speech API
+
+---
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Node.js** (version 16 or higher) - Download and install from [Node.js](https://nodejs.org/)
+- **MongoDB** - You can use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) or a local MongoDB setup.
+- **Clerk Account** - Sign up at [Clerk](https://clerk.dev/) to configure authentication.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Installation
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Smora-AI-Voice
->>>>>>> a4b9f9f052074fbd35add630929f2374ee22d50a
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/samora-ai.git
+   cd samora-ai
