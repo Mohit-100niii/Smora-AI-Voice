@@ -12,12 +12,10 @@ A full-stack web application that generates speech from text using the **PlayAI 
 - **Database**: User data and audio files are stored in MongoDB.
 
 ---
-
-## Live Demo
-
 You can check out the live version of the application here:
 
-**[Live Demo](https://elegant-semifreddo-f9bf5c.netlify.app/)**
+## Live Demo - https://smora-ai-voice.vercel.app/
+
 
 ---
 
