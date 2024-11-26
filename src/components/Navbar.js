@@ -24,7 +24,7 @@ function Navbar() {
 
         {/* Text */}
         <div className="font-mono font-bold text-2xl text-center md:text-left text-white flex-grow">
-          Let's Deep Dive in the World of AI
+        Let&apos;s Deep Dive in the World of AI
         </div>
 
         {/* Authentication Buttons */}
