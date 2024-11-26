@@ -44,15 +44,29 @@ To run this project locally, follow these steps:
 
 ### Prerequisites
 
-- **Node.js** (version 16 or higher) - Download and install from [Node.js](https://nodejs.org/)
 - **MongoDB** - You can use [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) or a local MongoDB setup.
 - **Clerk Account** - Sign up at [Clerk](https://clerk.dev/) to configure authentication.
 
+## Features
+
+### User Authentication:
+- Users can sign up, log in, and securely manage their accounts using **Clerk** authentication.
+
+### Text-to-Speech:
+- Users can input text and generate audio using **PlayAI's text-to-speech API**.
+- Users can listen to the generated audio and download it.
+
+### Audio Storage:
+- Users can save the generated audio to their account, which is stored in **Cloudinary** and **MongoDB**.
+
+### Responsive Design:
+- The application is fully responsive and optimized for both **desktop** and **mobile devices**.
+
 ---
 
-### Installation
+## Deployment
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/samora-ai.git
-   cd samora-ai
+The project is deployed using **Netlify** for the frontend and **Heroku** (or your choice of deployment platform) for the backend.
+
+- **Frontend**: [Netlify Deployment](https://elegant-semifreddo-f9bf5c.netlify.app/)
+- **Backend**: Deployment to **Heroku** or your preferred cloud service.
